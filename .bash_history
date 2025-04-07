@@ -203,3 +203,50 @@ git commit -m "First commit"
 git log --pretty=fuller >> file.log
 git remote add origin git@github.com:grupo3-gcp/grupo-3.git
 git branch -M main
+git add .
+git push -u origin main
+git branch
+git config --global user.email "carlos.valle@telsal.cloud"
+git config --global user.name "grupo3-gcp"
+git config --global --list
+git commit -m "First commit"
+git push -u origin main
+ssh-keygen -t ed25519 -C "carlos.valle@telsal.cloud"
+cd ..
+sudo apt install whois
+pwd
+ls
+cd gorup
+cd group3/
+ls
+cd
+clear
+pwd
+ls -la
+ssh-keygen -t rsa -b 4096 -C "carlos.valle@telsal.cloud"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+ssh-add ~/.ssh/id_1868
+ssh-add ~/.ssh/key
+ssh-add ~/.ssh/keys
+ls 
+ls -la
+ls .ssh/ -la
+git status
+rm -r keys
+rm -r keys.pub
+git branch
+git push origin main
+git push -u origin main
+git remote set-url origin https://github.com/grupo3-gcp/grupo-3.git
+git push origin main
+ls
+ssh-keygen -t ed25519 -C "carlos.valle@telsal.cloud"
+ls
+cat key
+cat key.pub
+git remote -v
+git remote set-url origin git@github.com:grupo3-gcp/grupo-3.git
+git status
+pwd
+nano .gitignore
