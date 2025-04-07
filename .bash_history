@@ -250,3 +250,31 @@ git remote set-url origin git@github.com:grupo3-gcp/grupo-3.git
 git status
 pwd
 nano .gitignore
+git add .
+git status
+git commit -m "second commit"
+git log --pretty=fuller >> file.log
+git push origin main
+cd ..
+ls
+cd ..
+ls
+cd .ssh
+ls
+cd home
+ls
+cd group4
+cd group3 
+ls
+ls -la
+chmod 600 key
+chmod 600 key.pub
+git push origin main
+eval
+eval "$(ssh-agent -s)"
+ssh-add key
+ssh -T git@github.com
+git push origin main
+git pull origin main
+git config pull.rebase true
+git pull --rebase origin main
