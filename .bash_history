@@ -278,3 +278,11 @@ git push origin main
 git pull origin main
 git config pull.rebase true
 git pull --rebase origin main
+git add .
+git status
+git commit -m "Third commit" 
+git push origin main
+git pull --rebase origin main
+git add .
+git status
+git pull --rebase origin main
